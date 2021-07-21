@@ -1,0 +1,118 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body{
+   background: -webkit-linear-gradient(left, #b2ff3f,#3296f9);/* Chrome 10-25, Safari 5.1-6 */                          
+   background: linear-gradient(to right, #b2ff3f,#3296f9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */             
+   font-family: "Sansita Swashed", cursive;                                  
+}
+.forma{
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto ;
+}
+input{
+  border: 2px solid #000000;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding: 9px;
+  width: 225px;
+  border-radius: 10px;
+  outline: none;
+  font-size:1.2em;
+}
+.header-form{
+  padding:50px;
+}
+.header-head{
+  position: relative;
+}
+.header{
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  left: 20px;
+}
+.header:after {
+  position: absolute;
+  left: -20px;
+  content: "";
+  display: block;
+  width: 4px;
+  height: 40px;
+  background-color: #2f8be0;
+  
+}
+.center{
+  background-color: #ffffff;
+  width: 350px;
+  height: 530px;
+  margin:auto;
+  border-radius: 10px;
+}
+.input-box{
+  position: relative;
+}
+.active{
+  
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.activeF{
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+input:focus {
+   outline: 0;
+   border-color: #F77A52;
+} 
+.valid{
+  display:none;
+  position: absolute;
+  top: 48px;
+  color:red;
+  font-size: 0.7em;
+  font-family: sans-serif;
+}
+.buttons{
+
+  display: flex;
+}
+.submit{
+  width: 130px;
+  height: 40px;
+  border-radius:10px;
+  border: none;
+  cursor: pointer;
+  background-color:dodgerblue;
+  margin-bottom: 100px;
+}
+.submit:hover{
+   background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+.k{
+  padding: 10px 25px;
+}
+.proto{
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l{
+margin-left: 5px;
+}
+.listDisplayBlock{
+  display: block;
+}
+.listDisplayNone{
+  display:none;
+}
